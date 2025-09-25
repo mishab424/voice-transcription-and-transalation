@@ -1,11 +1,11 @@
 {
-  "name": "eSignDoc - Signature On document",
+  "name": "Voice Transcription & Translation Plugin",
   "version": "1.0.0",
-  "description": "eSignDoc is a dynamic plugin built for Oracle APEX that allows users to create and store e-signatures, place them on uploaded PDF/image documents, and download the signed output. The plugin supports multiple input modes and is ideal for digital approvals and document workflows.",
-  "keywords": ["apex-plugin", "signature", "e-signature", "e-sign", "digital-signature", "pdf-signature", "apex-pdf-sign","drag-drop-signature","Document Sign"],
+  "description": "This plugin captures spoken input from the user, converts it into text, and optionally translates it into a target language. The resulting text can be passed to APEX items dynamically. It supports multiple languages for both speech recognition and translation, with the ability to enable or disable translation based on a toggle.",
+  "keywords": ["apex-plugin", "voice", "Transcription", "Transcription", "voice-to-text", "plugin", "apex","oracle","region"],
   "homepage": "https://github.com/mishab424/eSignDoc",
   "bugs": {
-    "url": "https://github.com/mishab424/eSignDoc/issues",
+    "url": "https://github.com/mishab424/voice-transcription-and-transalation/issues",
     "email": "mishabpoomala424@gmail.com"
   },
   "license": "MIT",
@@ -13,21 +13,21 @@
   "author": {
     "name": "Muhammed Mishab PP",
     "email": "mishabpoomala424@gmail.com",
-    "url": "https://www.linkedin.com/in/muhammed-mishab-pp-"
+    "url": "https://mishabmhmd.netlify.app/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mishab424/eSignDoc.git"
+    "url": "https://github.com/mishab424/voice-transcription-and-transalation.git"
   },
   "oracle": {
     "versions": ["12.2.0.1", "18c", "19c", "21c"],
     "apex": {
       "versions": ["24.2"],
       "plugin": {
-        "internalName": "ASSENTA,ISHAB.ESIGNDOC",
+        "internalName": "VOICE_TRANSCRIPTION_AND_TRANSLATION",
         "type": "Template Component",
-        "demo": "https://apex.oracle.com/pls/apex/r/aishwarya_dev/plugins/home?session=3956620099864",
-        "previewImage": "https://raw.githubusercontent.com/mishab424/eSignDoc/refs/heads/main/demo/demo%20gif.gif"
+        "demo": "https://oracleapex.com/ords/r/mishab_demo_dev/voice-recgonaisation-plugin/test-plugin",
+        "previewImage": "https://github.com/mishab424/voice-transcription-and-transalation/blob/18fa8de2fb3ef9f8fd3e1b71afa2ed7c77b9b673/demo%20gif.gif"
       }
     }
   }
