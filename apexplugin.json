@@ -24,7 +24,7 @@
     "apex": {
       "versions": ["24.2"],
       "plugin": {
-        "internalName": "VOICE_TRANSCRIPTION_AND_TRANSLATION",
+        "internalName": "MC_VOICE_TRANSCRIPTION_AND_TRANSLATION",
         "type": "Template Component",
         "demo": "https://oracleapex.com/ords/r/mishab_demo_dev/voice-recgonaisation-plugin/test-plugin",
         "previewImage": "https://github.com/mishab424/voice-transcription-and-transalation/blob/18fa8de2fb3ef9f8fd3e1b71afa2ed7c77b9b673/demo%20gif.gif"
@@ -32,3 +32,4 @@
     }
   }
 }
+
